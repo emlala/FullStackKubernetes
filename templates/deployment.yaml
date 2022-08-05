@@ -17,10 +17,10 @@ spec:
     spec:
       containers:
         - name: front
-          image: "235920682125.dkr.ecr.eu-north-1.amazonaws.com/mursu-style:latest"
+          image: "frontendimage"
           ports:
             - containerPort: 80
         - name: back
-          image: "235920682125.dkr.ecr.eu-north-1.amazonaws.com/mursurepoback:latest"
+          image: "backendimage"
           ports:
             - containerPort: 5000
